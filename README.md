@@ -28,8 +28,12 @@ Both scripts follow a similar structure:
     -Use the QR code's bounding box coordinates to crop the image with additional padding.
     -Use either EasyOCR or PaddleOCR to extract text from the cropped region.
     -Display the extracted text and the cropped image with the detected text.
+
 ## Examples
 After running either script with the provided sample code, you should see:
-
     -The original image with the QR code.
-    -The cropped region with the detected text.
+    -The cropped region with the detected text.    
+## License
+This project is licensed under the Apache License 2.0. For more information, please refer to the [LICENSE](LICENSE) file in the root of this repository.
+Apache License 2.0
+Copyright (c) 2023 Alejandro Olivo
